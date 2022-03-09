@@ -14,8 +14,8 @@
 <body>
 <a href="songlist.html"><img id="menu" src="menu.png"></a>
 <div class="four">
-  <h1 id="p1" style="font-size:40px;">Song Title 2</h1>
-  <p id="p2" style="font-size:25px;"><br>Lyrics</p>
+  <h1 id="p1" style="font-size:50px;">Song Title 3</h1>
+  <p id="p2" style="font-size:30px;"><br>Lyrics</p>
     <div class="three">
     <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#cccc" data-fgcolor="#333" data-thickness=".3" data-min="1" data-max="20"></div></div>
     
@@ -33,8 +33,8 @@
                  if(Math.round(value)-1 != index){
                      navigator.vibrate(10);
                      index = Math.round(value)-1;
-                     document.getElementById("p1").innerHTML = songList[index][0];
-                     document.getElementById("p2").innerHTML = "<br>"+songList[index][1];
+                     document.getElementById("p1").innerHTML = '<span style="font-size:50px;"> ' + songList[index][0] + '</span>';
+                     document.getElementById("p2").innerHTML = '<br><span style="font-size:30px;">  ' + songList[index][1] + '</span>';
                  }
                      this.$.attr('value',Math.round(value))
                    },
