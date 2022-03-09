@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
 <title>The Garden Songlist</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -16,10 +18,11 @@
     <p id="list">Song List</p>
     
 <script type="text/javascript">
+    
     let text = "&nbsp;<br>";
     for (let i = 0; i < songTitles.length; i++) {
       text += i+1 + ". ";
-      text += songTitles[i] + "<br>";
+      text += songTitles.sort()[i] + " ("+songList.sort()[i][2]+") <br>";
     }
     document.getElementById("list").innerHTML = text;
 </script>
