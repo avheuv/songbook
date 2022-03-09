@@ -20,7 +20,8 @@
     <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#cccc" data-fgcolor="#333" data-thickness=".3" data-min="1" data-max="20"></div></div>
     
 <script type="text/javascript">
-    var index=-1;
+    var index=0;
+    navigator.vibrate(10);
     document.getElementById("knob1").setAttribute("data-max", songListLength);
     $(function() {
         $(".dial").knob();
