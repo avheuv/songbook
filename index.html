@@ -12,11 +12,12 @@
 </head>
 
 <body>
+<a href="songlist.html"><img id="menu" src="menu.png"></a>
 <div class="four">
   <h1 id="p1">Song Title</h1>
-    <p id="p2">Lyrics</p>
+  <p id="p2"><br>Lyrics</p>
     <div class="three">
-    <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#cccc" data-fgcolor="#333" data-thickness=".3" data-min="1" data-max="20"></div>
+    <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#cccc" data-fgcolor="#333" data-thickness=".3" data-min="1" data-max="20"></div></div>
     
 <script type="text/javascript">
     var index=-1;
@@ -30,7 +31,7 @@
                      navigator.vibrate(10);
                      index = Math.round(value)-1;
                      document.getElementById("p1").innerHTML = songList[index][0];
-                     document.getElementById("p2").innerHTML = songList[index][1];
+                     document.getElementById("p2").innerHTML = "<br>"+songList[index][1];
                  }
                      this.$.attr('value',Math.round(value))
                    },
@@ -42,6 +43,5 @@
        
     
 </script>
-</div>
 </body>
 </html>
