@@ -77,9 +77,9 @@ var songList=[
     
         ["As The Deer","Lyrics"],
     
-        ["All In All","Lyrics"],
+        ["All In All","You are my strength when I am weak<br>You are the treasure that I seek<br>You are my all in all<br>Seeking You as a precious jewel<br>Lord, to give up I'd be a fool<br>You are my all in all<br><br>Taking my sin, my cross, my shame<br>Rising again I bless Your name<br>You are my all in all<br>When I fall down You pick me up<br>When I am dry You fill my cup<br>You are my all in all<br><br>Jesus, Lamb of God<br>Worthy is Your name<br>Jesus, Lamb of God<br>Worthy is Your name"],
     
-        ["Sanctuary","Lyrics"]
+        ["Sanctuary","Lord prepare me<br>To be a sanctuary<br>Pure and holy<br>Tried and true<br>And with thanksgiving<br>I'll be a living<br>Sanctuary, for You"]
 ];
 
 //Code for sorting the list of songs alphabetically by song title
