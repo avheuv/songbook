@@ -22,19 +22,18 @@
 <script type="text/javascript">
     var index=0;
     document.getElementById("knob1").setAttribute("data-max", songListLength);
+    document.getElementById("p1").innerHTML = songList.sort()[0][0];
+    document.getElementById("p2").innerHTML = songList.sort()[0][1];
     $(function() {
         $(".dial").knob();
-        navigator.vibrate(10);
-        navigator.vibrate(10);
-        navigator.vibrate(10);
     });
     $('.dial').knob({
              change: function (value) {
                  if(Math.round(value)-1 != index){
                      navigator.vibrate(10);
                      index = Math.round(value)-1;
-                     document.getElementById("p1").innerHTML = '<span style="font-size:50px;"> ' + songList[index][0] + '</span>';
-                     document.getElementById("p2").innerHTML = '<br><span style="font-size:30px;">  ' + songList[index][1] + '</span>';
+                     document.getElementById("p1").innerHTML = '<span style="font-size:50px;"> ' + songList.sort()[index][0] + '</span>';
+                     document.getElementById("p2").innerHTML = '<br><span style="font-size:30px;">  ' + songList.sort()[index][1] + '</span>';
                  }
                      this.$.attr('value',Math.round(value))
                    },
