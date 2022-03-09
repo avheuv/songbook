@@ -19,22 +19,25 @@
     <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#dddddd" data-fgcolor="#222222" data-thickness=".3" data-min="1" data-max="20"></div>
     
 <script type="text/javascript">
+    var index=0;
     document.getElementById("knob1").setAttribute("data-max", songListLength);
     $(function() {
         $(".dial").knob();
     });
     $('.dial').knob({
              change: function (value) {
-             var index = Math.round(value)-1;
-                 document.getElementById("p1").innerHTML = songList[index][0];
-                 document.getElementById("p2").innerHTML = songList[index][1];
-                 navigator.vibrate(10);
-                  this.$.attr('value',Math.round(value))
-                },
-                release : function (value) {
-                    this.$.attr('value',Math.round(value))
-                }
-            })
+                 if(Math.round(value)-1 != index){
+                     navigator.vibrate(10);
+                     index = Math.round(value)-1;
+                     document.getElementById("p1").innerHTML = songList[index][0];
+                     document.getElementById("p2").innerHTML = songList[index][1];
+                 }
+                     this.$.attr('value',Math.round(value))
+                   },
+                   release : function (value) {
+                      this.$.attr('value',Math.round(value))
+                   }
+               })
 
        
     
