@@ -3,9 +3,9 @@ var songList=[
         
         ["This Is My Father's World","This is my Father's world,<br>And to my listening ears<br>All nature sings, and round me rings<br>The music of the spheres.<br>This is my Father's world:<br>I rest me in the thought<br>Of rocks and trees, of skies and seas--<br>His hand the wonders wrought.<br><br>This is my Father's world:<br>The birds their carols raise,<br>The morning light, the lily white,<br>Declare their Maker's praise.<br>This is my Father's world:<br>He shines in all that's fair;<br>In the rustling grass I hear Him pass,<br>He speaks to me everywhere.<br><br>This is my Father's world:<br>O let me ne'er forget<br>That though the wrong seems oft so strong,<br>God is the Ruler yet.<br>This is my Father's world:<br>Why should my heart be sad?<br>The Lord is King: let the heavens ring!<br>God reigns; let earth be glad!"],
 
-        ["Turn Your Eyes Upon Jesus","Lyrics"],
+        ["Turn Your Eyes Upon Jesus","Turn your eyes upon Jesus<br>Look full in his wonderful face<br>And the things of earth will grow strangely dim<br>In the light of his glory and grace.<br><br>Turn your thoughts upon Jesus<br>Think deep on His marvelous love<br>And the thoughts of sin and self and strife<br>Will be lost in His rapture above."],
 
-        ["Knowing You","Lyrics"],
+        ["Knowing You","All I once held dear, built my life upon<br>All this world reveres, and wars to own<br>All I once thought gain I have counted loss<br>Spent and worthless now, compared to this<br><br>CHORUS<br>Knowing You, Jesus, Knowing You<br>There is no greater thing<br>You're my all, You're the best<br>You're my joy, my righteousness<br>And I love You, Lord."],
 
         ["Have You Seen Jesus My Lord","Lyrics"],
     
