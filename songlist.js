@@ -1,89 +1,40 @@
 var songList=[
-        ["Great Is Thy Faithfulness", "Great is Thy faithfulness, O God my Father<br>There is no shadow of turning with Thee<br>Thou changest not, Thy compassions, they fail not<br>As Thou hast been, Thou forever will be<br><br>CHORUS<br>Great is Thy faithfulness<br>Great is Thy faithfulness<br>Morning by morning new mercies I see<br>All I have needed Thy hand hath provided<br>Great is Thy faithfulness, Lord, unto me<br><br>Summer and winter and springtime and harvest<br>Sun, moon and stars in their courses above<br>Join with all nature in manifold witness<br>To Thy great faithfulness, mercy and love. CHORUS<br><br>Pardon for sin and a peace that endureth<br>Thine own dear presence to cheer and to guide<br>Strength for today and bright hope for tomorrow<br>Blessings all mine with 10, 000 beside. CHORUS"],
+        ["Great Is Thy Faithfulness", "Great is Thy faithfulness, O God my Father<br>There is no shadow of turning with Thee<br>Thou changest not, Thy compassions, they fail not<br>As Thou hast been, Thou forever will be<br><br>CHORUS<br>Great is Thy faithfulness<br>Great is Thy faithfulness<br>Morning by morning new mercies I see<br>All I have needed Thy hand hath provided<br>Great is Thy faithfulness, Lord, unto me<br><br>Summer and winter and springtime and harvest<br>Sun, moon and stars in their courses above<br>Join with all nature in manifold witness<br>To Thy great faithfulness, mercy and love. CHORUS<br><br>Pardon for sin and a peace that endureth<br>Thine own dear presence to cheer and to guide<br>Strength for today and bright hope for tomorrow<br>Blessings all mine with 10, 000 beside. CHORUS","1"],
         
-        ["This Is My Father's World","This is my Father's world,<br>And to my listening ears<br>All nature sings, and round me rings<br>The music of the spheres.<br>This is my Father's world:<br>I rest me in the thought<br>Of rocks and trees, of skies and seas--<br>His hand the wonders wrought.<br><br>This is my Father's world:<br>The birds their carols raise,<br>The morning light, the lily white,<br>Declare their Maker's praise.<br>This is my Father's world:<br>He shines in all that's fair;<br>In the rustling grass I hear Him pass,<br>He speaks to me everywhere.<br><br>This is my Father's world:<br>O let me ne'er forget<br>That though the wrong seems oft so strong,<br>God is the Ruler yet.<br>This is my Father's world:<br>Why should my heart be sad?<br>The Lord is King: let the heavens ring!<br>God reigns; let earth be glad!"],
+        ["This Is My Father's World","This is my Father's world,<br>And to my listening ears<br>All nature sings, and round me rings<br>The music of the spheres.<br>This is my Father's world:<br>I rest me in the thought<br>Of rocks and trees, of skies and seas--<br>His hand the wonders wrought.<br><br>This is my Father's world:<br>The birds their carols raise,<br>The morning light, the lily white,<br>Declare their Maker's praise.<br>This is my Father's world:<br>He shines in all that's fair;<br>In the rustling grass I hear Him pass,<br>He speaks to me everywhere.<br><br>This is my Father's world:<br>O let me ne'er forget<br>That though the wrong seems oft so strong,<br>God is the Ruler yet.<br>This is my Father's world:<br>Why should my heart be sad?<br>The Lord is King: let the heavens ring!<br>God reigns; let earth be glad!","3"],
 
-        ["Turn Your Eyes Upon Jesus","Turn your eyes upon Jesus<br>Look full in his wonderful face<br>And the things of earth will grow strangely dim<br>In the light of his glory and grace.<br><br>Turn your thoughts upon Jesus<br>Think deep on His marvelous love<br>And the thoughts of sin and self and strife<br>Will be lost in His rapture above."],
+        ["Turn Your Eyes Upon Jesus","Turn your eyes upon Jesus<br>Look full in his wonderful face<br>And the things of earth will grow strangely dim<br>In the light of his glory and grace.<br><br>Turn your thoughts upon Jesus<br>Think deep on His marvelous love<br>And the thoughts of sin and self and strife<br>Will be lost in His rapture above.","4"],
 
-        ["Knowing You","All I once held dear, built my life upon<br>All this world reveres, and wars to own<br>All I once thought gain I have counted loss<br>Spent and worthless now, compared to this<br><br>CHORUS<br>Knowing You, Jesus, Knowing You<br>There is no greater thing<br>You're my all, You're the best<br>You're my joy, my righteousness<br>And I love You, Lord."],
+        ["Knowing You","All I once held dear, built my life upon<br>All this world reveres, and wars to own<br>All I once thought gain I have counted loss<br>Spent and worthless now, compared to this<br><br>CHORUS<br>Knowing You, Jesus, Knowing You<br>There is no greater thing<br>You're my all, You're the best<br>You're my joy, my righteousness<br>And I love You, Lord.","5"],
 
-        ["Have You Seen Jesus My Lord","Lyrics"],
+        ["Have You Seen Jesus My Lord","CHORUS<br>Have you seen Jesus my Lord?<br>He's here in plain view.<br>Take a look, open your eyes,<br>He'll show it to you.<br><br>Have you ever stood at the ocean<br>with the white foam at your feet;<br>Felt the endless thundering motion?<br>Then I say you've seen Jesus my Lord.<br>CHORUS<br><br>Have you ever stood at the sunset <br>with the sky mellowing red; <br>Seen the cloud suspended like feathers? <br>Then I say you've seen Jesus my Lord.<br>CHORUS<br><br>Have you ever stood at the cross <br>with the man hanging in pain; <br>Seen the look of love in His eyes? <br>Then I say you've seen Jesus my Lord.<br>CHORUS<br><br>Have you ever stood in the fam'ly <br>with the Lord there in your midst; <br>Seen the face of Christ in your brother? <br>Then I say you've seen Jesus my Lord.<br>CHORUS","6"],
     
-        ["Awesome God","Lyrics"],
-    
-        ["Be Unto Your Name","Lyrics"],
-    
-        ["Lord of the Dance","Lyrics"],    
+        ["Be Unto Your Name","We are a moment, You are forever<br>Lord of the Ages, God before time<br>We are a vapor, You are eternal<br>Love everlasting, reigning on high<br><br>CHORUS<br>Holy, holy, Lord God Almighty<br>Worthy is the Lamb Who was slain<br>Highest praises, honor and glory<br>Be unto Your name, be unto Your name<br><br>We are the broken, You are the healer<br>Jesus, Redeemer, Mighty to save<br>You are the love song we'll sing forever<br>Bowing before You, blessing Your name<br>CHORUS","8"], 
 
-        ["Song of Peace","Lyrics"],
+        ["Song of Peace","This is my song<br>Oh gods of all the nations<br>A song of peace for lands afar and mine<br>This is my home, a country where my heart is<br>Here are my hopes, my dreams, my holy shrine.<br>But other hearts in other lands are beating<br>With hopes and dreams as true and high as mine<br><br>My country's skies are bluer than the ocean<br>And sunlight beams on clover leaf and pine<br>But other lands have sunlight too and clover<br>And skies are everywhere as blue as mine<br>Oh hear my prayer, Thou God of all the nations<br>A song of peace for their land and for mine.","13"],
     
-        ["I Life My Eyes Up","Lyrics"],
+        ["Sea Walker","Come and go with me to see the sea walker, the blind-man healer,<br>The leper-cleansing man of Galilee. <br>He's a soul saver, the one who set me free. Come along and go with me<br>To see the sea walker, the blind-man healer,<br>The leper-cleansing man of Galilee. <br>He's a soul saver, the one who set me free. Come along and go with me.","26"],
     
-        ["Lord of the Dance","Lyrics"],
+        ["Mighty To Save","Everyone needs compassion<br>A love that's never failing, let mercy fall on me<br>Everyone needs forgiveness<br>The kindness of a Savior, the Hope of nations<br><br>CHORUS<br>Savior, He can move the mountains<br>My God is mighty to save<br>He is mighty to save<br>Forever, author of Salvation<br>He rose and conquered the grave<br>Jesus conquered the grave<br><br>So take me as You find me<br>All my fears and failures<br>Fill my life again<br>I give my life to follow<br>Everything I believe in<br>And now I surrender<br>CHORUS","33"],
     
-        ["Take My Life and Let It Be","Lyrics"],
+        ["The Kinder Blinder Song","Let me be a little kinder,<br>Let me be a little blinder, <br> To the faults of those around me, <br>Let me praise a little more. <br>Let me be when I am weary<br>Just a little bit more cheery,<br>Think a little more of others, <br>And a little less of me.<br><br>Let me be a little braver<br>When temptation bids me waver<br>Let me strive a little harder<br>To be all that I should be<br>Let me be a little meeker<br>With a brother who is weaker<br>Let me think more of my neighbor<br>And a little less of me. <br><br>Let me be when I am weary,<br>Just a little bit more cheery, <br>Let me serve a little better<br>Those that I am striving for.<br>Let me be a little meeker<br>With a brother that is weaker,<br>Think a little more of others<br>And a little less of me.","50"],
     
-        ["Lead Me, Guide Me","Lyrics"],
+        ["Shine Jesus Shine","Lord, the light of your love is shining<br>In the midst of the darkness, shining<br>Jesus, Light of the world, shine upon us<br>Set us free by the truth you now bring us<br>Shine on me, shine on me<br><br>Shine, Jesus, shine<br>Fill this land with the Father's glory<br>Blaze, Spirit, blaze<br>Set our hearts on fire<br>Flow, river, flow<br>Flood the nations with grace and mercy<br>Send forth your word<br>Lord, and let there be light","54"],
     
-        ["I Will Sing of the Mercies...","Lyrics"],
+        ["God And God Alone","God and God alone<br>Created all these things<br>We call our own<br>From the mighty to the small<br>The glory in them all<br>Is God's and God's alone<br><br>God and God alone<br>Reveals the truth<br>Of all we call unknown<br>And all the best and worst of man<br>Won't change the master's plan<br>It's God's and God's alone<br><br>God and God alone<br>Is fit to take<br>The universe's throne<br>Let everything that lives<br>Reserve its truest praise<br>For God and God alone<br><br>God and God alone<br>Will be the joy<br>Of our eternal home<br>He will be our one desire<br>Our hearts will never tire<br>Of God and God alone<br><br>God and God alone<br>Is fit to take<br>The universe's throne<br>Let everything that lives<br>Reserve its truest praise<br>For God and God alone","56"],
     
-        ["Oh, My Child","Lyrics"],
+        ["How Deep The Father's Love For Us","How deep the Father's love for us<br>How vast beyond all measure<br>That He should give His only Son<br>To make a wretch His treasure<br>How great the pain of searing loss<br>The Father turns His face away<br>As wounds which mar the Chosen One<br>Bring many sons to glory<br><br>Behold the man upon a cross<br>My sin upon His shoulders<br>Ashamed, I hear my mocking voice<br>Call out among the scoffers<br>It was my sin that held Him there<br>Until it was accomplished<br>His dying breath has brought me life<br>I know that it is finished<br><br>I will not boast in anything<br>No gifts, no power, no wisdom<br>But I will boast in Jesus Christ<br>His death and resurrection<br>Why should I gain from His reward?<br>I cannot give an answer<br>But this I know with all my heart<br>His wounds have paid my ransom","64"],
     
-        ["Sea Walker","Lyrics"],
+        ["You're Beautiful","I see your face in every sunrise<br>The colours of the morning are inside your eyes<br>The world awakens in the light of the day<br>I look up to the sky and say You're beautiful. <br>oh...oh, oh...oh) 2x<br><br>I see your power in the moonlit night<br>Where planets are in motion and galaxies are bright<br>We are amazed In the light of the stars<br>It's all proclaiming who you are You're beautiful. <br>oh...oh, oh...oh) 2x<br><br>I see you there hanging on a tree<br>You bled and then you died and then you rose again for me<br>Now you are sitting on your heavenly throne. <br>Soon we will be coming home. You're beautiful.<br>oh...oh, oh...oh) 2x","66"],
     
-        ["How Majestic is Your Name","Lyrics"],
+        ["The Tree Song","I saw a tree by the riverside<br>One day as I walked along,<br>Straight as an arrow and pointing to the sky<br>growing tall and strong<br>How do you grow so tall and strong<br>I said to the riverside tree,<br>This is the song that my tree friend sang to me.<br><br>I've got roots growing down to the water,<br>I've got leaves growing up to the sunshine<br>and the fruit that I bear is a sign of life in me,<br>I am shade from the hot summer sundown,<br>I am nest for the birds of the heaven,<br>I'm becoming what the Lord of trees has meant me to be.<br><br>I saw a tree by the city street <br>where buildings blocked the sun,<br>Green and lovely I could see <br>it gave joy to everyone.<br>How do you grow in the city streets <br>I said to the downtown tree,<br>This is the song that my tree friend sang to me.","67"],
     
-        ["Mighty To Save","Lyrics"],
+        ["All In All","You are my strength when I am weak<br>You are the treasure that I seek<br>You are my all in all<br>Seeking You as a precious jewel<br>Lord, to give up I'd be a fool<br>You are my all in all<br><br>Taking my sin, my cross, my shame<br>Rising again I bless Your name<br>You are my all in all<br>When I fall down You pick me up<br>When I am dry You fill my cup<br>You are my all in all<br><br>Jesus, Lamb of God<br>Worthy is Your name<br>Jesus, Lamb of God<br>Worthy is Your name","88"],
     
-        ["Joyful, Joyful, We Adore Thee","Lyrics"],
-    
-        ["What A Friend We Have in Jesus","Lyrics"],
-    
-        ["When Peace Like A River","Lyrics"],
-    
-        ["Great Is The Lord","Lyrics"],
-    
-        ["Step By Step","Lyrics"],
-    
-        ["God Of Wonders","Lyrics"],
-    
-        ["Open Our Eyes Lord","Lyrics"],
-    
-        ["The Kinder Blinder Song","Lyrics"],
-    
-        ["Shine Jesus Shine","Lyrics"],
-    
-        ["God And God Alone","Lyrics"],
-    
-        ["Be Thou My Vision","Lyrics"],
-    
-        ["How Deep The Father's Love For Us","Lyrics"],
-    
-        ["You're Beautiful","Lyrics"],
-    
-        ["The Three Song","Lyrics"],
-    
-        ["Amazing Grace","Lyrics"],
-    
-        ["Praise To The Lord, The Almighty","Lyrics"],
-    
-        ["When I Survey The Wondrous Cross","Lyrics"],
-    
-        ["Thy Word","Lyrics"],
-    
-        ["Beautiful Savior","Lyrics"],
-    
-        ["How Great Thou Art","Lyrics"],
-    
-        ["As The Deer","Lyrics"],
-    
-        ["All In All","You are my strength when I am weak<br>You are the treasure that I seek<br>You are my all in all<br>Seeking You as a precious jewel<br>Lord, to give up I'd be a fool<br>You are my all in all<br><br>Taking my sin, my cross, my shame<br>Rising again I bless Your name<br>You are my all in all<br>When I fall down You pick me up<br>When I am dry You fill my cup<br>You are my all in all<br><br>Jesus, Lamb of God<br>Worthy is Your name<br>Jesus, Lamb of God<br>Worthy is Your name"],
-    
-        ["Sanctuary","Lord prepare me<br>To be a sanctuary<br>Pure and holy<br>Tried and true<br>And with thanksgiving<br>I'll be a living<br>Sanctuary, for You"]
+        ["Sanctuary","Lord prepare me<br>To be a sanctuary<br>Pure and holy<br>Tried and true<br>And with thanksgiving<br>I'll be a living<br>Sanctuary, for You","99"]
 ];
 
-//Code for sorting the list of songs alphabetically by song title
-// First, create an array of just the song titles
+//Create an array of just the song titles
 var songTitles = [];
 var songListLength = songList.length;
 
@@ -91,14 +42,4 @@ for (var i = 0; i < songList.length; i++){
     songTitles[i] = songList[i][0];
 }
 
-//Then sort the list alphabetically
-var sortedSongTitles = songTitles.sort();
 
-//Create an array, which represents each songs place in order
-var songOrder = [];
-
-//Loop over the alphabetical list and 
-for (var i = 0; i < songList.length; i++){
-    
-    songTitles[i] = songList[i][0];
-}
