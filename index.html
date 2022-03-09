@@ -16,10 +16,10 @@
   <h1 id="p1">Song Title</h1>
     <p id="p2">Lyrics</p>
     <div class="three">
-    <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#dddddd" data-fgcolor="#222222" data-thickness=".3" data-min="1" data-max="20"></div>
+    <input type="text" id="knob1" value="1" class="dial" data-width="350" data-height="350" data-cursor="true" data-bgcolor="#cccc" data-fgcolor="#333" data-thickness=".3" data-min="1" data-max="20"></div>
     
 <script type="text/javascript">
-    var index=0;
+    var index=-1;
     document.getElementById("knob1").setAttribute("data-max", songListLength);
     $(function() {
         $(".dial").knob();
