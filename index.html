@@ -34,7 +34,6 @@
     $('.dial').knob({
              change: function (value) {
                  if(Math.round(value)-1 != index){
-                     navigator.vibrate(10);
                      index = Math.round(value)-1;
                      document.getElementById("p1").innerHTML = '<span style="font-size:50px;"> ' + songList.sort()[index][0] + '</span>';
                      document.getElementById("p2").innerHTML = '<br><span style="font-size:30px;">  ' + songList.sort()[index][1] + '</span>';
